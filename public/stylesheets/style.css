@@ -1,5 +1,5 @@
 html{
-  background-color: 6C976B;
+  background-color: #6C976B;
 }
 
 body {
@@ -11,13 +11,32 @@ body {
   border: 1px solid black;
 }
 
-a {
-  color: #00B7FF;
-}
+/* width settings */
+.width-100{width: 100%;}
 
-.mobile-only {
-  display: none;
-}
+/* background color selectors */
+.bg-primary{background-color: #6C976B;}
+.bg-secondary{background-color: #E4FEDB;}
+.bg-white{background-color: white;}
+
+/* hides mobile-only elements when screen width larger than 600px */
+.mobile-only {display: none;}
+
+/* Text Size Settings */
+.text-size-1 { font-size: 1em; }
+.text-size-2 { font-size: 2em; }
+.text-size-3 { font-size: 3em; }
+.text-size-4 { font-size: 4em; }
+.text-size-5 { font-size: 5em; }
+
+/* FlexBox Styling */
+.flex { display: flex;}
+.flex-row {flex-direction: row;}
+.flex-column {flex-direction: column;}
+.flex-1{flex: 1}
+.justify-content-even {justify-content: space-evenly;}
+.justify-content-even {justify-content: space-around;}
+.align-content-center {align-content: center;}
 
 /* Styling for mobile go here */
 @media (max-width: 600px) {
