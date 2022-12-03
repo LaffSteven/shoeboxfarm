@@ -1,12 +1,28 @@
 html{
-  background-color: lightskyblue;
+  background-color: 6C976B;
 }
 
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 2rem;
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
+
+.view-desktop {
+  display: none;
+}
+
+@media (min-width: 600) {
+  .view-desktop {
+    display: block;
+  }
+  .view-mobile {
+    display: none;
+  }
+}
+
+
+
