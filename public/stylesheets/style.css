@@ -7,21 +7,35 @@ body {
   font: "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.border-dev {
+  border: 1px solid black;
+}
+
 a {
   color: #00B7FF;
 }
 
-.view-desktop {
+.mobile-only {
   display: none;
 }
 
-@media (min-width: 600) {
-  .view-desktop {
-    display: block;
-  }
-  .view-mobile {
+/* Styling for mobile go here */
+@media (max-width: 600px) {
+  .desktop-only {
     display: none;
   }
+  .mobile-only {
+    display: block;
+  }
+
+  /* height settings for mobile elements */
+  .mobile-height-1 { height: 1rem; }
+  .mobile-height-2 { height: 2rem; }
+  .mobile-height-3 { height: 3rem; }
+  .mobile-height-4 { height: 4rem; }
+  .mobile-height-5 { height: 5rem; }
+
+
 }
 
 
